@@ -24,6 +24,7 @@ startGame(); // calling function to start the game
 
 //defining the function to start the game (it will also run when clicking on the "Replay" button)
 function startGame() {
+  TimerTurn=true;
   TimerBarStop=true;
   progress(5,10, $('#progressBar'));
   turn_count=0;
